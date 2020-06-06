@@ -6,7 +6,7 @@
 	require __DIR__ . '/vendor/autoload.php';
 
 	/*Get Data From POST Http Request*/
-	$datas = file_get_contents('php://input');
+	$datas = file_get_contents('https://github.com/MazKzSoulZ/data_line_surcle.git');
 	/*Decode Json From LINE Data Body*/
 	$deCode = json_decode($datas,true);
 
